@@ -10,3 +10,13 @@ static double CalculateAvarage(int[] numbers)
     foreach (var n in numbers) sum += n;
     return sum/numbers.Length;
 }
+
+
+static int CalculateMax(int[] numbers)
+{
+    int max = numbers[0];
+    foreach (var n in numbers)
+        if (n > max)
+            max = n;
+    return max;
+}
