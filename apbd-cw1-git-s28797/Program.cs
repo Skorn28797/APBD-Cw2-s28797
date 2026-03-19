@@ -1,4 +1,4 @@
-﻿Console.WriteLine("Hello, World!");
+﻿Console.WriteLine("Hello, PJATK!");
 
 int[] numbers = { 1, 2, 3, 4, 10 };
 
